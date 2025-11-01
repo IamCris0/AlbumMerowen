@@ -1,17 +1,15 @@
-<!-- Banner Animado -->
 <div class="banner">
   <div class="banner-line line-1"></div>
   <div class="banner-line line-2"></div>
   <div class="banner-line line-3"></div>
 </div>
 
-<!-- Contenedor Principal -->
+
 <div class="container">
-  <!-- Logo Central -->
   <div class="logo-section">
     <div class="logo-circle">
       <img 
-        src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop" 
+        src="/assets/logo.jpg" 
         alt="Album Cover"
         class="album-image"
       >
@@ -20,7 +18,6 @@
     <p class="album-subtitle">{{ albumSubtitle }}</p>
   </div>
 
-  <!-- Secciones: Gallery, Lyrics, Extras -->
   <div class="sections-grid">
     @for (section of sections; track section.title) {
       <div 
@@ -41,7 +38,6 @@
   </div>
 </div>
 
-<!-- Banner Inferior -->
 <div class="banner-bottom">
   <div class="banner-line line-4"></div>
   <div class="banner-line line-5"></div>

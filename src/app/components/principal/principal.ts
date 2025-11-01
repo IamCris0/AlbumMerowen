@@ -35,6 +35,5 @@ export class Principal {
 
   onSectionClick(section: string) {
     console.log(`Navigating to ${section}`);
-    // Aquí puedes agregar la navegación
   }
 }

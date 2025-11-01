@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-principal',
@@ -33,7 +34,17 @@ export class Principal {
     }
   ];
 
+  constructor(private router: Router) {}
+
   onSectionClick(section: string) {
     console.log(`Navigating to ${section}`);
+    
+    if (section === 'Gallery') {
+      this.router.navigate(['/gallery']);
+    } else if (section === 'Lyrics') {
+      this.router.navigate(['/lyrics']);
+    } else if (section === 'Extras') {
+      this.router.navigate(['/extras']);
+    }
   }
 }

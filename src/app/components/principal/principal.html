@@ -1,1 +1,48 @@
-<p>principal works!</p>
+<!-- Banner Animado -->
+<div class="banner">
+  <div class="banner-line line-1"></div>
+  <div class="banner-line line-2"></div>
+  <div class="banner-line line-3"></div>
+</div>
+
+<!-- Contenedor Principal -->
+<div class="container">
+  <!-- Logo Central -->
+  <div class="logo-section">
+    <div class="logo-circle">
+      <img 
+        src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop" 
+        alt="Album Cover"
+        class="album-image"
+      >
+    </div>
+    <h1 class="album-title">{{ albumTitle }}</h1>
+    <p class="album-subtitle">{{ albumSubtitle }}</p>
+  </div>
+
+  <!-- Secciones: Gallery, Lyrics, Extras -->
+  <div class="sections-grid">
+    @for (section of sections; track section.title) {
+      <div 
+        class="section-card"
+        [style.border-color]="section.color"
+        (click)="onSectionClick(section.title)"
+      >
+        <div class="section-icon" [style.color]="section.color">
+          {{ section.icon }}
+        </div>
+        <h2 class="section-title">{{ section.title }}</h2>
+        <p class="section-description">{{ section.description }}</p>
+        <div class="section-check">
+          <span class="checkbox">☐</span>
+        </div>
+      </div>
+    }
+  </div>
+</div>
+
+<!-- Banner Inferior -->
+<div class="banner-bottom">
+  <div class="banner-line line-4"></div>
+  <div class="banner-line line-5"></div>
+</div>

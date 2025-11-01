@@ -24,135 +24,81 @@ export class Galeria {
   songs: Song[] = [
     {
       id: 1,
-      title: 'RARA VEZ',
-      artist: 'Milo J',
-      album: 'Vida de Artista',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '3:24',
       cover: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop',
-      lyrics: `Me siento raro cuando no estás
-No sé si es amor o ansiedad
-Rara vez me siento así
-Rara vez pienso en ti
+      lyrics: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
 
-Y aunque quiera olvidarte
-No puedo sacarte de mi mente
-Eres como un tatuaje permanente
-Que nunca se borra, simplemente
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Me haces falta cuando no estás
-Me sobras cuando estás acá
-Rara vez te quiero ver
-Rara vez te quiero tener`,
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.`,
     },
     {
       id: 2,
-      title: 'M.A.I',
-      artist: 'Milo J',
-      album: 'Bien Loco',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '2:58',
       cover: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&h=300&fit=crop',
-      lyrics: `Música, arte e ignorancia
-Son tres pilares de mi esencia
-Vivo en la inconsistencia
-Buscando siempre la trascendencia
+      lyrics: `Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
 
-No me importa lo que digan
-Si total la vida siga
-Yo voy a seguir mi instinto
-Aunque el camino sea distinto
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.
 
-M.A.I, eso es lo que soy
-M.A.I, así es como estoy
-Entre el caos y la calma
-Buscando paz para mi alma`,
+Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.`,
     },
     {
       id: 3,
-      title: 'PARAISO',
-      artist: 'Milo J',
-      album: 'Single',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '3:45',
       cover: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&h=300&fit=crop',
-      lyrics: `Quiero llevarte al paraíso
-Donde no exista el compromiso
-Donde seamos libres tú y yo
-Sin nadie que nos diga no
+      lyrics: `Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 
-En ese lugar no hay dolor
-Solo existe nuestro amor
-Donde el tiempo no existe
-Y la tristeza se resiste
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 
-Paraíso, nuestro lugar
-Donde podemos soñar
-Paraíso, sin final
-Donde todo es especial`,
+Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit sit amet non magna.`,
     },
     {
       id: 4,
-      title: 'VIDA DE ARTISTA',
-      artist: 'Milo J',
-      album: 'Vida de Artista',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '4:12',
       cover: 'https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=300&h=300&fit=crop',
-      lyrics: `Esta es la vida de artista
-Donde todo cambia en la pista
-Un día arriba, otro abajo
-Pero nunca me relajo
+      lyrics: `Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.
 
-Escribo mi historia en cada canción
-Expreso lo que llevo en el corazón
-No busco fama ni reconocimiento
-Solo quiero vivir este momento
+Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae.
 
-Vida de artista, es lo que elegí
-Aunque a veces me haga sufrir
-Vida de artista, mi verdad
-Mi forma de expresar libertad`,
+Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.`,
     },
     {
       id: 5,
-      title: 'A1',
-      artist: 'Milo J',
-      album: 'Singles',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '3:18',
       cover: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&h=300&fit=crop',
-      lyrics: `Siempre en la A1, nunca en la B
-Primer nivel, así es como me ves
-No bajo la guardia, mantengo el nivel
-A1 en todo, esa es mi ley
+      lyrics: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium. Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 
-Desde el día uno yo lo supe
-Que mi destino era este street
-No hay vuelta atrás, solo pa' adelante
-A1 siempre, soy constante
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.
 
-Esta es mi ruta, mi camino
-A1 marcado en mi destino
-Sin descanso, sin respiro
-A1 hasta que expire`,
+Omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae.`,
     },
     {
       id: 6,
-      title: 'ANTES DE LOS 20',
-      artist: 'Milo J',
-      album: 'EP',
+      title: 'Cancion 1',
+      artist: 'Merowen',
+      album: 'Nombre Album',
       duration: '3:52',
       cover: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=300&h=300&fit=crop',
-      lyrics: `Antes de los 20 quiero lograrlo
-Cumplir mis sueños sin pensarlo
-No hay tiempo que perder
-Es ahora o nunca, hay que crecer
+      lyrics: `At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
 
-Dicen que soy muy joven
-Pero mi alma es veterana
-Antes de los 20 voy a demostrarlo
-Que la edad no define tu legado
+Similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
 
-No me importa cuántos años tengo
-Lo que importa es lo que sostengo
-Mi pasión, mi dedicación
-Antes de los 20, cumplo mi misión`,
+Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.`,
     },
   ];
 
@@ -165,6 +111,6 @@ Antes de los 20, cumplo mi misión`,
   }
 
   playSong(song: Song): void {
-    console.log(`Playing: ${song.title} by ${song.artist}`);
+    console.log(`Mostrando: ${song.title} por ${song.artist}`);
   }
 }

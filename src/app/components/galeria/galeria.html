@@ -1,14 +1,11 @@
 <div class="gallery-container">
-  <!-- Header -->
   <div class="gallery-header">
-    <h1 class="gallery-title">🎵 Music Gallery</h1>
-    <p class="gallery-subtitle">Hover over a song to see the lyrics</p>
+    <h1 class="gallery-title">🎵 Galería Musical</h1>
+    <p class="gallery-subtitle">Pasa el cursor sobre una canción para ver la letra</p>
   </div>
 
-  <!-- Layout: Songs Grid + Lyrics Panel -->
   <div class="gallery-layout">
     
-    <!-- Songs Grid (Izquierda) -->
     <div class="songs-grid">
       @for (song of songs; track song.id) {
         <div 
@@ -20,9 +17,6 @@
         >
           <div class="song-cover">
             <img [src]="song.cover" [alt]="song.title">
-            <div class="play-overlay">
-              <span class="play-icon">▶</span>
-            </div>
           </div>
           
           <div class="song-info">
@@ -37,7 +31,6 @@
       }
     </div>
 
-    <!-- Lyrics Panel (Derecha) -->
     <div class="lyrics-panel" [class.visible]="selectedSong">
       @if (selectedSong) {
         <div class="lyrics-content">
@@ -52,7 +45,7 @@
       } @else {
         <div class="lyrics-placeholder">
           <div class="placeholder-icon">🎤</div>
-          <p>Hover over a song to see lyrics</p>
+          <p>Pasa el cursor sobre una canción para ver la letra</p>
         </div>
       }
     </div>

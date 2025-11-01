@@ -16,19 +16,19 @@ export class Principal {
   sections = [
     {
       title: 'Gallery',
-      description: 'Explore exclusive photos and artwork',
+      description: 'Explora el contenido visual del álbum',
       icon: '📸',
       color: '#FF6B6B'
     },
     {
       title: 'Lyrics',
-      description: 'Read all song lyrics and meanings',
+      description: 'Lee todas las letras de las canciones y sus significados',
       icon: '🎵',
       color: '#4ECDC4'
     },
     {
       title: 'Extras',
-      description: 'Behind the scenes and bonus content',
+      description: 'Contenido adicional',
       icon: '✨',
       color: '#FFE66D'
     }

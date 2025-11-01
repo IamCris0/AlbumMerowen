@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 })
 export class Principal {
   albumTitle = 'MEROWEN';
-  albumSubtitle = 'The Ultimate Collection';
+  albumSubtitle = 'Nombre Album';
   
   sections = [
     {
